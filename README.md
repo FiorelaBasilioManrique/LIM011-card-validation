@@ -1,32 +1,18 @@
-# Tarjeta de crédito válida
+# LearningCode
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
+* [1. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [3. Consideraciones generales](#4-consideraciones-generales)
+* [4. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
 
 ***
 
-## 1. Preámbulo
-
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
-
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
-
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
-
 ## 2. Resumen del proyecto
+
+LearningCode es una página web donde brinda cursos online, para acceder dichos cursos deben hacer un pago respectivo donde tengrar que ingresar el numero de su numero de tarjeta
 
 ¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
 aplicación web que le permita a un usuario validar el número de una tarjeta de

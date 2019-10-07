@@ -1,3 +1,11 @@
-import validator from './validator.js';
+import { isValid } from './validator.js';
 
-console.log(validator);
+const numero = document.getElementById('numero');
+const tarjeta = document.getElementById('tarjeta');
+const validar = document.getElementById('validar');
+
+validar.addEventListener('click', () => {
+    isValid(numero);
+});
+
+

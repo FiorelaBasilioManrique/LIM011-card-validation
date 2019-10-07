@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0px;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(211, 170, 250);
+    margin-top: 200px;
+}
+
+.tarjetaValida{
+    background: linear-gradient(to right, #ad5389, #4c1054);
+    width: 45%;
+    height: 250px;
+    margin-left: 400px;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
+    box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
+}
+
+.numero{
+    width: 50%;
+    height: 40px;
+    text-align:center;
+    /* display: flex; */
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.validarNum{
+    width: 25%;
+    height: 40px;
+    background-color: rgb(4, 4, 71);
+    margin-top: 20px;
+    margin-left: 220px;
+    cursor: pointer;
+    color: white;
+    -webkit-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
+    box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
+    outline: none;
+}
+
+.hide{
+    display: none;
+}
