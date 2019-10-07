@@ -33,7 +33,9 @@ body{
 .validarNum{
     width: 25%;
     height: 40px;
-    background-color: rgb(4, 4, 71);
+    background: transparent;
+    border: 2px solid  rgb(4, 4, 71);
+    border-radius: 6px;
     margin-top: 20px;
     margin-left: 220px;
     cursor: pointer;
@@ -42,6 +44,11 @@ body{
     -moz-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
     box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
     outline: none;
+}
+
+.validarNum:hover{
+    background-color: rgb(4, 4, 71);
+    color: white;
 }
 
 .hide{
