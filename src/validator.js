@@ -1,9 +1,10 @@
-export const isValid = (creditCardNumber) => {
+export const isValid = (numero) => {
+  // export const isValid = (creditCardNumber) => {
   let suma = 0;
   let newArray = [];
 
   const reverseNumero = (numero.value.split(''));
-  console.log(reverseNumero);
+  // console.log(reverseNumero);
 
   for (let i = 0; i < reverseNumero.length; i++) {
     if (i % 2 === 0) {
@@ -12,7 +13,7 @@ export const isValid = (creditCardNumber) => {
       newArray.push(parseInt(reverseNumero[i]));
     }
   }
-  console.log(newArray);
+  // console.log(newArray);
 
   // SUMA
 
@@ -26,13 +27,21 @@ export const isValid = (creditCardNumber) => {
     } else {
       suma += parseInt(newArray[i]);
     }
-    console.log(suma);
+    // console.log(suma);
   }
   if (suma % 10 === 0) {
-    alert('valida')
+
+    const validaTarjeta = `<p id="parrafo" class="parrafo">El N° de tarjeta es válida.</p>
+    <img class="check" src="img/check.gif" alt="">`
+
+    return validaTarjeta;
 
   } else {
-    alert('no valida')
+
+    const noValida = `<p class="parrafo">El N° de tarjeta no es válida</p>
+    <img class="signoAd" src="img/admiracion.png" alt="">`;
+    return noValida;
   }
 };
 
+  // hacer con el return valida o no valida

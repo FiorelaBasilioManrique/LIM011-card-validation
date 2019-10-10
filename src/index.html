@@ -9,17 +9,37 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
+
 <body>
   <header></header>
   <main>
-    <div class="tarjetaValida">
-      <input type="number" id="numero" class="numero" value="" placeholder="Ingrese N° de Tarjeta"> 
+    <div class="tarjetaValida" id="cardTarje">
+      <input type="number" id="numero" class="numero" required placeholder="Ingrese N° de Tarjeta" value="">
       <button id="validar" class="validarNum">Validar Tarjeta</button>
     </div>
 
-    <div id="tarjeta">
+    <!-- modales -->
 
+    <div id="modal" class="modal  hide">
+      <div id="flex" class="flex">
+        <div class="contenidoModal">
+          <div class="modal-header flex">
+            <h2>Validador</h2>
+            <span class="close" id="close">&times;</span>
+          </div>
+          <div class="modal-body">
+            <!-- <p id="parrafo"></p>
+            <img src="https://www.tierragamer.com/wp-content/uploads/2019/10/Naruto-Modo-Sabio-450x300.jpg" alt=""> -->
+          </div>
+          <div class="modal-footer">
+            <h4>hecho &copy;</h4>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+
   </main>
   <footer></footer>
   <script src="index.js" type="module"></script>

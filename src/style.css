@@ -1,21 +1,27 @@
 *{
     margin:0;
     padding: 0;
-    border: 0px;
+    /* border: 0px; */
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
 body{
-    background-color: rgb(211, 170, 250);
+    /* background-color: rgb(211, 170, 250); */
+    background-color: white;
     margin-top: 200px;
 }
 
 .tarjetaValida{
     background: linear-gradient(to right, #ad5389, #4c1054);
+    background-attachment: fixed;
+    background-position: center;
     width: 45%;
     height: 250px;
     margin-left: 400px;
     border-radius: 10px;
+    position: relative;
+    margin: auto;
     -webkit-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
     box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
@@ -51,6 +57,106 @@ body{
     color: white;
 }
 
+.flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal{
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* background: rgba(0,0,0, 0.452); */
+
+}
+
+.contenidoModal{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    width: 30%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .4);
+    animation-name: ventana;
+    animation-duration: 1s;
+  
+}
+
+@keyframes ventana{
+    from{top:-330px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+
+.close{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.close:hover{
+    color: #7f8c8d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header, .modal-footer{
+    padding: 8px 16px;
+    background: #34495e;
+    color: #f2f2f2;
+}
+
+p{
+    text-align: justify;
+}
+
+.modal-body{
+    padding: 20px 16px;
+}
+
 .hide{
     display: none;
+}
+
+.check{
+    width: 45%;
+    height: 155px;
+}
+
+.signoAd{
+    width: 45%;
+    height: 155px;
+}
+
+.parrafo{
+    font-size: 40px;
+    position: absolute;
+	top: 50%;
+	left: 74%;
+	height: 30%;
+	width: 50%;
+    margin: -15% 0 0 -25%;
+    color: rgb(7, 7, 37);
+}
+
+@media screen and (max-width:900px){
+    .contenidoModal{
+        width: 70%;
+    }
+    .cardTarje{
+        padding: 150px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .cardTarje{
+        padding: 50px;
+    }
 }
