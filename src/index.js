@@ -1,4 +1,4 @@
-import { isValid } from './validator.js';
+import isValid  from './validator.js';
 
 const numero = document.getElementById('numero');
 const validar = document.getElementById('validar');
@@ -31,14 +31,31 @@ window.addEventListener('click', (e)=>{
         cardTarje.classList.remove('hide');
     }
 });
+
+const validaTarjeta = `<p id="parrafo" class="parrafo">El N° de tarjeta es válida.</p>
+<img class="check" src="img/check.gif" alt="">`
+
+const noValida = `<p class="parrafo">El N° de tarjeta no es válida</p>
+  <img class="signoAd" src="img/admiracion.png" alt="">`;
+
 // const resp = document.getElementById('#parrafo');
 validar.addEventListener('click', (e) => {
     e.preventDefault(); // FUNCION
-    const response = isValid(numero);
-    // console.log(response);
-    // document.getElementById('parrafo').innerHTML = response;
-    document.querySelector('.modal-body').innerHTML = response;
+    const response = isValid(numero.value);
+    const modal = document.querySelector('.modal-body');
     openModal();
+    if(response === true){
+        modal.innerHTML = validaTarjeta;
+       
+    }else {
+        modal.innerHTML = noValida;
+      
+    }
+    // const response = isValid(numero);
+    // // console.log(response);
+    // document.getElementById('parrafo').innerHTML = response;
+    // // document.querySelector('.modal-body').innerHTML = response;
+
     // cerrarModal();
 
     numero.value = "";

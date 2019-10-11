@@ -146,6 +146,20 @@ p{
     color: rgb(7, 7, 37);
 }
 
+footer{
+    background-color: #1c2630;
+    height: 25px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+  color: rgb(255, 255, 255);
+}
+
 @media screen and (max-width:900px){
     .contenidoModal{
         width: 70%;
