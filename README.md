@@ -7,8 +7,9 @@
 * [3. Investigación UX](#4-consideraciones-generales)
 * [4. Prototipo en Papel](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [5. Feeback Recibido](#7-pistas-tips-y-lecturas-complementarias)
-* [5. Prototipo Final](#7-pistas-tips-y-lecturas-complementarias)
-* [2. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [6. Prototipo Final](#7-pistas-tips-y-lecturas-complementarias)
+* [7. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [8. Prototipo en Figma](#3-objetivos-de-aprendizaje)
 
 ***
 
