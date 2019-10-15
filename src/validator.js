@@ -1,5 +1,5 @@
  const isValid = (number) => {
-  // export const isValid = (number) => {
+  
   let suma = 0;
   let newArray = [];
 
@@ -36,18 +36,10 @@
 
   if (suma % 10 === 0) {
     return true;
-    // const validaTarjeta = `<p id="parrafo" class="parrafo">El N° de tarjeta es válida.</p>
-    // <img class="check" src="img/check.gif" alt="">`
-
-    // return 'El N° de tarjeta es válida.';
-
   } else {
     return false;
-    // const noValida = `<p class="parrafo">El N° de tarjeta no es válida</p>
-    // <img class="signoAd" src="img/admiracion.png" alt="">`;
-    // return 'El N° de tarjeta no es válida';
   }
 };
 
-  // hacer con el return valida o no valida
+  // export funcion
   export default isValid
