@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Tarjeta de crédito válida</title>
+  <link rel="icon" href="img/icono.png">
   <link rel="stylesheet" href="style.css" />
   <!-- iconos -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -11,40 +12,44 @@
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <img class="logoTarjeta" src="img/tarjeta.png" alt="">
+    <img class="logo" src="img/logo.png" alt="">
+  </header>
+
   <main>
+    <!-- Diseño de la primera vista -->
     <div class="tarjetaValida" id="cardTarje">
+      <span class="mensaje" id="mensaje"></span>
       <input type="number" id="numero" class="numero" required placeholder="Ingrese N° de Tarjeta" value="">
       <button id="validar" class="validarNum">Validar Tarjeta</button>
     </div>
+    <!-- Fin del Diseño de la primera vista -->
 
     <!-- modales -->
-
     <div id="modal" class="modal  hide">
       <div id="flex" class="flex">
         <div class="contenidoModal">
           <div class="modal-header flex">
-            <h2>Validador</h2>
+            <h2>Resultados:</h2>
             <span class="close" id="close">&times;</span>
           </div>
-          <div class="modal-body">
-                <!-- <p id="parrafo"></p> -->
-                <!-- <img src="https://www.tierragamer.com/wp-content/uploads/2019/10/Naruto-Modo-Sabio-450x300.jpg" alt="">  -->
-          </div>
+          <div class="modal-body"></div>
           <div class="modal-footer">
-            <h4>hecho &copy;</h4>
+            <h4>Hecho por: &copy;Fiorela Basilio Manrique</h4>
           </div>
         </div>
       </div>
     </div>
-
-
+    <!-- Fin Modales -->
 
   </main>
+
   <footer>
     <h4>Hecho por: &copy;Fiorela Basilio Manrique</h4>
   </footer>
+
+  <!-- JS -->
   <script src="index.js" type="module"></script>
 </body>
-
 </html>

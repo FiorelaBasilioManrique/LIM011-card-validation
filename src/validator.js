@@ -1,16 +1,16 @@
- const isValid = (numero) => {
-  // export const isValid = (creditCardNumber) => {
+ const isValid = (number) => {
+  // export const isValid = (number) => {
   let suma = 0;
   let newArray = [];
 
-  const reverseNumero = (numero.split(''));
-  // console.log(reverseNumero);
+  const multiNumero = (number.split(''));
+  // console.log(multiNumero);
 
-  for (let i = 0; i < reverseNumero.length; i++) {
+  for (let i = 0; i < multiNumero.length; i++) {
     if (i % 2 === 0) {
-      newArray.push(reverseNumero[i] * 2);
+      newArray.push(multiNumero[i] * 2);
     } else {
-      newArray.push(parseInt(reverseNumero[i]));
+      newArray.push(parseInt(multiNumero[i]));
     }
   }
   // console.log(newArray);
@@ -20,7 +20,9 @@
   for (let i = 0; i < newArray.length; i++) {
     if (newArray[i] >= 10) {
       const numberCadena = newArray[i].toString();
+      // console.log(numberCadena);
       for (let i = 0; i < numberCadena.length; i++) {
+        // console.log(numberCadena);
         suma += parseInt(numberCadena[i]);
         // console.log(suma);
       }

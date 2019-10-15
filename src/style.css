@@ -8,12 +8,44 @@
 
 body{
     /* background-color: rgb(211, 170, 250); */
-    background-color: white;
+    background-color: #eeeeee;
     margin-top: 200px;
 }
 
+.logoTarjeta{
+    width: 10%;
+    height: 120px;
+    top: -170px;
+    position: relative;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: -280px;
+}
+
+.logo{
+    width: 18%;
+    margin-top: -190px;
+    position: relative;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ 
+}
+
+.mensaje{
+    color: rgba(230, 141, 106);
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .tarjetaValida{
-    background: linear-gradient(to right, #ad5389, #4c1054);
+    background: linear-gradient(to right, #5C258D, #4389A2);
     background-attachment: fixed;
     background-position: center;
     width: 45%;
@@ -63,9 +95,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: rgba(0,0,0, 0.452);
 }
 
 .modal{
+   
     position: fixed;
     z-index: 1;
     overflow: auto;
@@ -73,8 +107,8 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
-    background: transparent;
-    /* background: rgba(0,0,0, 0.452); */
+  
+    background: rgba(0,0,0, 0.452);
 
 }
 
@@ -111,6 +145,7 @@ body{
     padding: 8px 16px;
     background: #34495e;
     color: #f2f2f2;
+    text-align: center;
 }
 
 p{
