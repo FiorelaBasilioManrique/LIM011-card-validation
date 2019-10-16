@@ -15,17 +15,16 @@
 
 ## Resumen del proyecto
 
-<!-- LearningCode es una página web donde brinda cursos online, para acceder dichos cursos deben hacer un pago respectivo donde tengrar que ingresar el numero de su numero de tarjeta -->
 Para nuestros clientes los más importante es la seguridad al momento de ingresar un número de tarjeta, para realizar dicho proceso.
-**SecureCard** busca proteger y comprobar si un numero ingresado es válido o no es válido.
+**SecureCard** busca proteger y comprobar si un número ingresado es válido o no es válido.
 
 ## Imagen Final del Proyecto
 
-1. Ingresemos un N° de Tarjeta para comprobar.
+- Ingresemos un N° de Tarjeta para comprobar.
 
 ![hola](img/proyec1.PNG)
 
-2. Si la tarjeta es válida se va mostrar el siguiente modal.
+- Si la tarjeta es válida se va mostrar el siguiente modal.
 
 ![hola](img/modal1.PNG)
 
@@ -73,7 +72,7 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 
 - [ ] Uso correcto de HTML semántico. SI
 - [ ] Uso de selectores de CSS. SI
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación). NO
+- [ ] Construir tu aplicación respetando el diseño realizado (maquetación). SI
 
 ### DOM
 
