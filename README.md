@@ -64,38 +64,38 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario. SI
-- [ ] Crear prototipos para obtener feedback e iterar. SI
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía). NO
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario. 
+- [ ] Crear prototipos para obtener feedback e iterar. 
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía). 
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico. SI
-- [ ] Uso de selectores de CSS. SI
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación). SI
+- [ ] Uso correcto de HTML semántico. 
+- [ ] Uso de selectores de CSS. 
+- [ ] Construir tu aplicación respetando el diseño realizado (maquetación). 
 
 ### DOM
 
-- [ ] Uso de selectores del DOM. SI
-- [ ] Manejo de eventos del DOM. SI
-- [ ] Manipulación dinámica del DOM. NO
+- [ ] Uso de selectores del DOM. 
+- [ ] Manejo de eventos del DOM. 
+- [x] Manipulación dinámica del DOM. 
 
 ### Javascript
 
-- [ ] Manipulación de strings. SI
-- [ ] Uso de condicionales (if-else | switch). NO
-- [ ] Uso de bucles (for | do-while). NO
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno). SI
-- [ ] Declaración correcta de variables (const & let). NO
-- [ ] Uso de ES Modules (import | export). NO
+- [ ] Manipulación de strings. 
+- [ ] Uso de condicionales (if-else | switch). 
+- [ ] Uso de bucles (for | do-while). 
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno). 
+- [ ] Declaración correcta de variables (const & let). 
+- [x] Uso de ES Modules (import | export). 
 
 ### Testing
-- [ ] Testeo de tus funciones. NO
+- [x] Testeo de tus funciones. 
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push). SI
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages). SI
+- [ ] Comandos de git (add | commit | pull | status | push). 
+- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages). 
 
 ### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización). NO
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica). NO
+- [x] Organizar y dividir el código en módulos (Modularización). 
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica). 

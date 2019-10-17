@@ -18,7 +18,7 @@ const isValid = (number) => {
   // SUMA
 
   for (let i = 0; i < newArray.length; i++) {
-  
+    // debbuger;
     if (newArray[i] >= 10) {
       const numberCadena = newArray[i].toString();
       // console.log(numberCadena);
